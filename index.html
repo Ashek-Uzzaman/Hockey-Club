@@ -24,8 +24,8 @@
 </head>
 
 <body class="font-manrope">
-    <header class="container mx-auto my-20 ">
-        <nav>
+    <header class="container mx-auto mt-10 px-10 lg:px-20 ">
+        <nav class="">
             <div class="navbar bg-base-100 ">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -38,36 +38,320 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Home</a></li>
+                            <li class="text-[#FF4240]"><a>Home</a></li>
                             <li><a>About</a></li>
                             <li><a>Pages</a></li>
                             <li><a>Blog</a></li>
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="text-4xl font-extrabold text-[#131318]">Hockey<span class="text-[#FF4240]">'</span>s</a>
+                    <a class="lg:text-4xl font-extrabold text-[#131318]">Hockey<span
+                            class="text-[#FF4240]">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
+                        <li class="text-[#FF4240]"><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
                         <li><a>Blog</a></li>
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end space-x-8">
+                <div class="navbar-end space-x-8 ">
                     <i class="fa-solid fa-magnifying-glass text-2xl text-gray-400 hidden lg:flex"></i>
-                    <a class="btn bg-[#FF4240] text-white font-bold text-xl px-4 py-2">Get Ticket</a>
+                    <a class="btn bg-[#FF4240] text-white font-bold lg:text-xl lg:px-4 lg:py-2">Get Ticket</a>
                 </div>
             </div>
         </nav>
+        <!-- banner -->
+        <div class="">
+            <div class="carousel lg:w-full  mt-5 lg:mt-20">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/slider.png" class="w-full rounded-2xl " />
+                    <div class="absolute space-x-5 left-36 bottom-2 lg:left-10 lg:bottom-16 ">
+                        <a href="#slide4" class="btn bg-gray-800 text-white btn-circle">❮</a>
+                        <a href="#slide2" class="btn  bg-gray-800 text-white  btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/slider.png" class="w-full rounded-2xl " />
+                    <div class="absolute space-x-5 left-36 bottom-2 lg:left-10 lg:bottom-16  ">
+                        <a href="#slide1" class="btn bg-gray-800 text-white btn-circle">❮</a>
+                        <a href="#slide3" class="btn bg-gray-800 text-white btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/slider.png" class="w-full rounded-2xl " />
+                    <div class="absolute space-x-5 left-36 bottom-2 lg:left-10 lg:bottom-16 ">
+                        <a href="#slide2" class="btn bg-gray-800 text-white btn-circle">❮</a>
+                        <a href="#slide4" class="btn bg-gray-800 text-white btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/slider.png" class="w-full rounded-2xl " />
+                    <div class="absolute space-x-5 left-36 bottom-2 lg:left-10 lg:bottom-16 ">
+                        <a href="#slide3" class="btn bg-gray-800 text-white btn-circle">❮</a>
+                        <a href="#slide1" class="btn bg-gray-800 text-white btn-circle">❯</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- badge -->
+            <div
+                class="bg-black p-2 lg:p-5 text-white rounded-2xl lg:mx-5 space-y-4  lg:relative w-full lg:w-1/2 lg:bottom-44 lg:-right-[570px]">
+                <h3 class=" text-xl lg:text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-[#ffffff99] ">The biggest prize and the most cherished victory in hockey alongside the
+                    Olympics. Every four years, at the Hockey World Cup.</p>
+
+            </div>
+        </div>
 
     </header>
-    <main>
+    <main class="container mx-auto px-10 lg:px-20 ">
+        <!-- Professional Hockeys Club section  -->
+        <section class="">
+            <div class="text-center border-y-2 border-dashed  border-b-2 space-y-4 mx-5 py-10">
+                <h3 class=" text-2xl lg:text-4xl font-extrabold text-[#131318] mb-4">Professional Hockeys Club</h3>
+                <p class="font-medium text-[#13131866] max-w-3xl mx-auto text-center">However, political issues would
+                    prevent that first competition from being played in Pakistan,first World Cup to be played in
+                    Pakistan
+                    during the Bangladesh Liberation War.</p>
+            </div>
 
+            <!-- radial progress -->
+            <div class="lg:flex justify-center items-center text-center  gap-10 mx-5 py-10 space-y-6 ">
+                <div class="space-y-4 ">
+                    <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+                    <div>
+                        <h4 class="text-xl font-semibold pb-2 text-[#131318]">Prayer Facility</h4>
+                        <p class=" text-[#13131866]">We continue our prayer. We figure out <br>where a hockey player
+                            should pray.</p>
+                    </div>
+                </div>
+                <div class="space-y-4 ">
+                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                    <div>
+                        <h4 class="text-xl font-semibold pb-2 text-[#131318]">Experienced Coach</h4>
+                        <p class=" text-[#13131866]">The coach in ice hockey is the person responsible <br> for
+                            directing the team during games and practices.</p>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+                    <div>
+                        <h4 class="text-xl font-semibold pb-2 text-[#131318]">Senior Player</h4>
+                        <p class=" text-[#13131866]">Hockey Alberta governs competition in amateur hockey in all
+                            <br>divisions, including senior which is open to players of any age.
+                        </p>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                    <div>
+                        <h4 class="text-xl font-semibold pb-2 text-[#131318]">Training Ground</h4>
+                        <p class=" text-[#13131866]">The main product of our company is hockey <br>diagnostic training
+                            centers.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- program section -->
+        <section>
+            <div class="text-center border-y-2 border-dashed  border-b-2 space-y-4 mx-5 py-10">
+                <h3 class="text-2xl lg:text-4xl font-extrabold text-[#131318] mb-4">Program Sections</h3>
+                <p class="font-medium text-[#13131866] max-w-3xl mx-auto text-center">Professional ice hockey (hockey)
+                    is the competition of ice hockey in which participants are paid to play. Professional competition
+                    began in North America.</p>
+            </div>
+            <!--  -->
+            <!-- container -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 my-10">
+                <!-- first card -->
+                <div class="bg-[url(./Images/images2.png)] h-[338px] bg-cover bg-no-repeat bg-center rounded-2xl">
+
+                    <div class="card w-96 text-white">
+                        <div class="card-body mt-20">
+                            <h2 class="text-2xl font-extrabold">Junior Program</h2>
+                            <p class="">Junior ice hockey is amateur-level ice hockey for 15- to 20-year-old
+                                players. National Junior teams compete annually for the IIHF World Junior Championship
+                            </p>
+                            <div class="card-actions ">
+                                <button class="btn text-white text-xl font-bold border-none bg-[#FF4240]">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd card -->
+                <div class="bg-[url(./Images/images3.png)] h-[338px] bg-cover bg-no-repeat bg-center rounded-2xl">
+
+                    <div class="card w-96 text-white">
+                        <div class="card-body mt-20">
+                            <h2 class="text-2xl font-extrabold">Teenager Program</h2>
+                            <p class="">The Junior Tigers have a range of leagues designed to put skills into practice
+                                in real-life game situations. The Island League welcomes players of all abilities.
+                            </p>
+                            <div class="card-actions ">
+                                <button class="btn text-white text-xl font-bold border-none bg-[#FF4240]">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- third card -->
+                <div
+                    class=" lg:col-span-2 bg-[url(./Images/images4.png)] h-[338px] bg-cover bg-no-repeat bg-center rounded-2xl">
+
+                    <div class="card w-96 text-white">
+                        <div class="card-body mt-20">
+                            <h2 class="text-2xl font-extrabold">Professional Program</h2>
+                            <p class="">Independent junior leagues edit · British Columbia Hockey League (1961) · Can-Am
+                                Junior Hockey League (2022) ·
+                            </p>
+                            <div class="card-actions ">
+                                <button class="btn text-white text-xl font-bold border-none bg-[#FF4240]">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- product section -->
+        <section>
+            <div class="text-center border-y-2 border-dashed  border-b-2 space-y-4 mx-5 py-10">
+                <h3 class="text-2xl lg:text-4xl font-extrabold text-[#131318] mb-4">Our New Products</h3>
+                <p class="font-medium text-[#13131866] max-w-3xl mx-auto text-center">Check out HockeyMonkey's extensive collection inline and ice hockey equipment. Choose from ice hockey skates, accessories, tools, & care products.
+                </p>
+            </div>
+        </section>
+        <!-- faq section -->
+        <section>
+            <div class="text-center border-y-2 border-dashed  border-b-2 space-y-4 mx-5 py-10">
+                <h3 class=" text-2xl lg:text-4xl font-extrabold text-[#131318] mb-4">Clients Question</h3>
+                <p class="font-medium text-[#13131866] max-w-3xl mx-auto text-center">Does every minor hockey team
+                    require a Safety Person? What are the roles and responsibilities of the Safety Person? Does the
+                    Safety Person have to be a medical.</p>
+            </div>
+            <!-- faq container -->
+            <div class="flex flex-col lg:flex-row gap-10 mt-10 mx-5 border rounded-2xl p-5">
+                <div>
+                    <img src="Images/question.png" alt="">
+                </div>
+                <div class="flex-1">
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-bold">
+                            Our Equipment
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Our gigantic inventory of pro stock ice hockey equipment
+                                includes sticks, gloves, skates, protective gear, official jerseys, practice jerseys and
+                                more — all </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Hockey Training
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Here are five key aspects of what it takes to be a successful
+                                professional hockey player.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Here are five key aspects of what it takes to be a successful
+                                professional hockey player.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-bold">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Here are five key aspects of what it takes to be a successful
+                                professional hockey player.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Booking
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Here are five key aspects of what it takes to be a successful
+                                professional hockey player.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Pricings
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Here are five key aspects of what it takes to be a successful
+                                professional hockey player.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
+    <!-- footer -->
+    <footer class="footer p-10  text-white bg-[#131318] mt-10">
+        <div class="flex flex-col text-center lg:text-start px-8 ">
+            <nav class="  space-y-2 lg:space-y-4">
+                <h6 class="text-xl lg:text-3xl font-extrabold">Get In Touch</h6>
+                <p class="">The hockey pro training podcast <br>will be dedicated to helping hockey players <br> by
+                    providing the best and
+                    latest information <br> from the best coaches from around the world.</p>
+                <div class="flex lg:justify-start justify-center gap-4">
+                    <img src="Images/email.png" alt="" class="h-5">
+                    <h3 class="">hockeys@support.com</h3>
+                </div>
+                <div class="flex lg:justify-start justify-center  gap-4">
+                    <img src="Images/call.png" alt="" class="h-5">
+                    <h3 class="">(+62) 123-321-543</h3>
+                </div>
+            </nav>
+        </div>
+        <!--  -->
+        <div class="flex flex-1 gap-20 lg:gap-64 px-10">
+            <nav class="flex flex-col  space-y-2 lg:space-y-4">
+                <h6 class=" text-base lg:text-xl font-bold">Company</h6>
+                <a class="link link-hover opacity-70">About us</a>
+                <a class="link link-hover opacity-70">Leadership</a>
+                <a class="link link-hover opacity-70">Careers</a>
+                <a class="link link-hover opacity-70">News & Article</a>
+                <a class="link link-hover opacity-70">Legal Notice</a>
+            </nav>
+            <nav class="flex flex-col  space-y-2 lgl:space-y-4">
+                <h6 class=" text-base lg:text-xl font-bold">Support</h6>
+                <a class="link link-hover opacity-70">Help Center</a>
+                <a class="link link-hover opacity-70">FAQ</a>
+                <a class="link link-hover opacity-70">Ticker Support</a>
+                <a class="link link-hover opacity-70">Contact Us</a>
+            </nav>
+        </div>
+        <div class=" mx-auto text-center lg:text-start">
+            <nav class=" flex flex-col  space-y-2 lg:space-y-3">
+                <h6 class="text-base lg:text-xl font-bold">Services</h6>
+                <a class="link link-hover opacity-70">Academy</a>
+                <a class="link link-hover opacity-70">Group Lesson</a>
+                <a class="link link-hover opacity-70">Private Lesson</a>
+                <a class="link link-hover opacity-70">Hockeys for kids</a>
+                <a class="link link-hover opacity-70">Hockeys for adult</a>
+            </nav>
+        </div>
 
     </footer>
 </body>
